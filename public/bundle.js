@@ -11013,7 +11013,7 @@ module.exports = setTextContent;
 /* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
-var React = __webpack_require__(57);
+var React = __webpack_require__(57)
 
 var div = React.DOM.div
 var h1 = React.DOM.h1
@@ -11028,7 +11028,7 @@ var MyTitle = React.createClass({
   }
 })
 
-module.exports = MyTitle;
+module.exports = MyTitle
 
 
 /***/ },
@@ -21627,11 +21627,11 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 /* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
-var React = __webpack_require__(57);
-var ReactDOM = __webpack_require__(88);
-var MyTitle = __webpack_require__ (87);
+var React = __webpack_require__(57)
+var ReactDOM = __webpack_require__(88)
+var MyTitle = __webpack_require__(87)
 
-var div = React.DOM.div;
+var div = React.DOM.div
 
 var MyTitleFact = React.createFactory(MyTitle)
 var ce = React.createElement
